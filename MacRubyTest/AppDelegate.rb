@@ -9,7 +9,12 @@
 class AppDelegate
     attr_accessor :window
     def applicationDidFinishLaunching(a_notification)
-        # Insert code here to initialize your application
+        puts "i'm using macruby to call into objective c"
+        rubyobj = RubyObj.new
+        p rubyobj
+        objcobj = MyObjcObject.new
+        p objcobj
+        
     end
 end
 

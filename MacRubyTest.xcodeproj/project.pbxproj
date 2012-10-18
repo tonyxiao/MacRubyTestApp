@@ -14,6 +14,8 @@
 		EA8123C616308B1A00A7D939 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA8123C416308B1A00A7D939 /* MainMenu.xib */; };
 		EA8123C916308B1A00A7D939 /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = EA8123C816308B1A00A7D939 /* rb_main.rb */; };
 		EA8123CB16308B1A00A7D939 /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = EA8123CA16308B1A00A7D939 /* AppDelegate.rb */; };
+		EA8123D616308B3200A7D939 /* MyObjcObject.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8123D516308B3200A7D939 /* MyObjcObject.m */; };
+		EA8123D816308B4C00A7D939 /* RubyObj.rb in Resources */ = {isa = PBXBuildFile; fileRef = EA8123D716308B4C00A7D939 /* RubyObj.rb */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +39,9 @@
 		EA8123C516308B1A00A7D939 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		EA8123C816308B1A00A7D939 /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
 		EA8123CA16308B1A00A7D939 /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+		EA8123D416308B3200A7D939 /* MyObjcObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyObjcObject.h; sourceTree = "<group>"; };
+		EA8123D516308B3200A7D939 /* MyObjcObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyObjcObject.m; sourceTree = "<group>"; };
+		EA8123D716308B4C00A7D939 /* RubyObj.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = RubyObj.rb; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +90,9 @@
 				EA8123C316308B1A00A7D939 /* Resources */,
 				EA8123C716308B1A00A7D939 /* Other Sources */,
 				EA8123BB16308B1A00A7D939 /* Supporting Files */,
+				EA8123D416308B3200A7D939 /* MyObjcObject.h */,
+				EA8123D516308B3200A7D939 /* MyObjcObject.m */,
+				EA8123D716308B4C00A7D939 /* RubyObj.rb */,
 			);
 			path = MacRubyTest;
 			sourceTree = "<group>";
@@ -189,6 +197,7 @@
 				EA8123C616308B1A00A7D939 /* MainMenu.xib in Resources */,
 				EA8123C916308B1A00A7D939 /* rb_main.rb in Resources */,
 				EA8123CB16308B1A00A7D939 /* AppDelegate.rb in Resources */,
+				EA8123D816308B4C00A7D939 /* RubyObj.rb in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,6 +209,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA8123C116308B1A00A7D939 /* main.m in Sources */,
+				EA8123D616308B3200A7D939 /* MyObjcObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,6 +253,7 @@
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = /Library/Frameworks/;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -273,6 +284,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = /Library/Frameworks/;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
